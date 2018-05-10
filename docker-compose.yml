@@ -44,7 +44,7 @@ services:
       - TOKEN=CHANGE_THIS
   
   oj-backend:
-    image: registry.registry.cn-qingdao.aliyuncs.com/orange_cl/oj_backend
+    image: registry.cn-qingdao.aliyuncs.com/orange_cl/oj_backend
     container_name: oj-backend
     depends_on:
       - oj-redis
